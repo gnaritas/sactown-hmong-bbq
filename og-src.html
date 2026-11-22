@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>og</title>
+<style>
+:root{--disp:'Avenir Next Condensed','Futura','Helvetica Neue',Arial,sans-serif;--body:Georgia,'Iowan Old Style','Times New Roman',serif}
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{width:1200px;height:630px;overflow:hidden}
+body{position:relative;background:radial-gradient(760px 480px at 86% 14%,rgba(217,72,31,.42),transparent 60%),radial-gradient(560px 340px at 4% 100%,rgba(229,166,58,.16),transparent 58%),linear-gradient(155deg,#120c0b,#241a17 55%,#33231c);color:#f7efe2;font-family:var(--body)}
+.stitch{position:absolute;left:0;top:0;width:1200px;height:44px}
+.wrap{position:absolute;left:70px;top:118px;width:660px}
+.kick{font-family:var(--disp);font-size:17px;font-weight:800;letter-spacing:.24em;text-transform:uppercase;color:#e5a63a;white-space:nowrap}
+h1{font-family:var(--disp);font-size:92px;line-height:1.0;letter-spacing:.02em;font-weight:800;text-transform:uppercase;margin:16px 0 16px;color:#f7efe2;white-space:nowrap}
+h1 em{font-style:normal;color:#f2711c}
+.sub{font-size:22px;line-height:1.55;color:rgba(247,239,226,.92);max-width:620px}
+.stubs{margin-top:24px;display:flex;gap:12px;white-space:nowrap}
+.stub{display:inline-block;font-family:var(--disp);font-size:13.5px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;background:#d9481f;color:#fff;border:2px dashed #8f2e10;border-radius:999px;padding:9px 16px;line-height:1.2}
+.stub.alt{background:#e5a63a;color:#181110;border-color:#9c6d1d}
+.foot{position:absolute;left:70px;bottom:38px;right:70px;display:flex;justify-content:space-between;align-items:flex-end}
+.addr{font-size:20px;color:rgba(247,239,226,.8);font-weight:600}
+.brand{font-family:var(--disp);font-size:22px;letter-spacing:.12em;font-weight:800;text-transform:uppercase;color:#e5a63a}
+.art{position:absolute;right:52px;top:96px;width:400px}
+</style>
+</head>
+<body>
+<svg class="stitch" viewBox="0 0 1200 44" aria-hidden="true">
+<defs><pattern id="st" width="120" height="44" patternUnits="userSpaceOnUse">
+<path d="M30 7l12 15-12 15-12-15Z" fill="none" stroke="#e0699b" stroke-width="3" stroke-linejoin="miter"/>
+<path d="M30 14l6 8-6 8-6-8Z" fill="#e5a63a"/>
+<path d="M90 7l12 15-12 15-12-15Z" fill="none" stroke="#3e9c5f" stroke-width="3" stroke-linejoin="miter"/>
+<path d="M90 14l6 8-6 8-6-8Z" fill="#d9481f"/>
+<path d="M58 37h8M68 37h8" stroke="#e5a63a" stroke-width="2.4" opacity=".6"/>
+<path d="M0 37h8M10 37h8M100 37h8M110 37h8" stroke="#e0699b" stroke-width="2.4" opacity=".5"/>
+</pattern></defs><rect width="1200" height="44" fill="url(#st)"/></svg>
+<div class="wrap">
+<div class="kick">Franklin Blvd · Sacramento CA · Open noon–sold out</div>
+<h1>Sactown <em>Hmong BBQ</em></h1>
+<p class="sub">Sacramento&rsquo;s first Hmong barbecue — mesquite-smoked ribs and pork belly, grilled chicken, house-made Hmong sausage and kua txob bird&rsquo;s-eye chili sauce.</p>
+<div class="stubs"><span class="stub">4.5 on Google · 22 reviews</span><span class="stub alt">Ribs · Belly · Hmong sausage</span></div>
+</div>
+<svg class="art" viewBox="0 0 400 440" aria-hidden="true">
+<path d="M200 14l158 182-158 182-158-182Z" fill="none" stroke="#e5a63a" stroke-width="5" stroke-linejoin="miter" opacity=".9"/>
+<path d="M200 56l122 140-122 140-122-140Z" fill="#1c1311"/>
+<path d="M200 92c-27 34-50 61-50 92 0 30 22 50 50 50s50-20 50-50c0-31-23-58-50-92Z" fill="#d9481f"/>
+<path d="M200 136c-16 21-29 37-29 54 0 17 12 29 29 29s29-12 29-29c0-17-13-33-29-54Z" fill="#e5a63a"/>
+<path d="M200 174c-8 11-14 19-14 27 0 8 6 14 14 14s14-6 14-14c0-8-6-16-14-27Z" fill="#f7d98c"/>
+<path d="M118 78h164" stroke="#f7efe2" stroke-width="10" stroke-linecap="round" opacity=".9"/>
+<path d="M140 62c-10 12-16 22-16 30M260 62c10 12 16 22 16 30" stroke="#f7efe2" stroke-width="7" stroke-linecap="round" opacity=".35" fill="none"/>
+<g fill="#e0699b"><path d="M74 292l12 15-12 15-12-15Z"/><path d="M326 292l12 15-12 15-12-15Z" fill="#3e9c5f"/></g>
+</svg>
+<div class="foot">
+<div class="addr">5824 Franklin Blvd · Sacramento, CA 95824 · (916) 822-4344</div>
+<div class="brand">Sactown Hmong BBQ</div>
+</div>
+</body>
+</html>

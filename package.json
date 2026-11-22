@@ -1,0 +1,9 @@
+{
+  "name": "sactown-hmong-bbq-site",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Sactown Hmong BBQ — Sacramento's first Hmong barbecue restaurant, Franklin Blvd. Template v2 T1 (2026-11-22, t_779fdad1).",
+  "main": "server.js",
+  "scripts": { "start": "node server.js" },
+  "engines": { "node": ">=18" }
+}
